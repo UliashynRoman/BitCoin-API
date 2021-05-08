@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nafarmlu.com</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <meta charset="utf-8">
+    </head>
+<body>
+        <div class="container pad" style="margin-bottom:30px;">
+                <ul class="navbar-list">
+                    <li class="navbar-item nir"> 
+                        <a class="navbar-link koko" href="#">BTC Online</a>
+                    </li>
+                    <li class="navbar-item-rigth"> 
+                        <a class="navbar-link-right li-a" href="#">Contact</a>
+                    </li>  
+                    <li class="navbar-item-rigth"> 
+                            <a class="navbar-link-right li-a" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+    <!-- <div class="main-bar">
+        <div class="container">     
+                
+        </div>
+    </div> -->
+    
+
+    <div class="row" >
+        <div class="three columns">
+            <div>
+                <div id="profile_logo_color">
+                    <h2 id="heading-nav" class="heading">Profile</h2>
+                    <img src="img/icon-Profile.png">
+                </div>
+                    <div id="profile_info_color">
+                        <div class="profile-card">
+                        <!-- Could be changed by php insert -->
+                        <h5>Roman</h5>
+                        <h5>Expert user</h5>
+                        <h5>Trader</h5>
+                        </div>
+                        <!-- FOR php 
+                            <div style="text-align:center;">
+                            <button type="button" id="add" class="button-primary  button input edit-prof" onclick="">Edit</button>
+                        </div> -->
+                    </div>
+                <!--.card-->
+            </div>
+        </div>
+
+            <div class="nine columns to_top" id="cars_info">
+                    <div class="row rigthblock " >
+                        <div class="row" id="centered">
+                            <h2 id="heading-nav" class="heading">Actual status </h2>
+                        </div>
+                        <div class="row">
+                            <div class="three columns">
+                                <h3>Time info</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Day</th>
+                                            <th>Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <td><h4 id="YM"></h4></td>
+                                        <td><h4 id="TM"></h4></td>
+                                    </tbody>
+                                </table>
+                                <h3>BTC</h3>
+                                <table class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>USD</th>
+                                                <th>EUR</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="usd_price">default</td>
+                                                <td id="usd_eur">default</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div class="nine columns u-pull-right">
+                                
+                                    <div class="twelve columns">
+                                        <canvas class="u-full-width" id="myChart2"></canvas>
+                                    </div>
+                            </div>   
+                        </div>
+                        
+                    </div>
+            </div>
+    </div>
+    
+        <div class="main-bar" style="margin:30px 0px;">
+            <div class="container" >
+                <div class="row">
+                    <div class="twelve columns">
+                        <h2 id="heding-nav" class="heading">History Rate</h2>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="courses-list">
+                <div class="service-card">
+                    <h4 class="hero-text" ></h4>
+                </div>
+            <div class="row">
+                <div class="row" >
+                        <div class="four columns" id="courses-list">
+                            <div class="card-2">
+                                <div class="info-card-2">
+                                    <h4>1. Find <br>History Rate Bar</h4>
+                                </div>
+                            </div> <!--.card-->
+                        </div>
+                        <div class="four columns" id="courses-list">
+                                <div class="card-2">
+                                    <div class="info-card-2">
+                                        <h4>2. Select<br>Dates</h4>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="four columns" id="courses-list">
+                                <div class="card-2">
+                                    <div class="info-card-2">
+                                        <h4>3. Analize<br>by Graphics</h4>
+                                    </div>
+                                </div> <!--.card-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">
+                    <div id="profile_info_color2">
+                        <div class="profile-card">
+                            <h2 id="heading-nav" class="heading">History Rate</h2>
+                            <h5>Select dates:</h5>                        
+                            <div class="data-align">
+                                <input class="u-full-width" type="date" name="date1" id="date1">
+                                <input class="u-full-width" type="date" name="date1" id="date2">
+                            </div>
+                            <div class="container" id="history">
+                                <div class="row">
+                                    <div class="twelve columns">
+                                        <table id="append" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Day</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <!-- tbody append by script -->
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nine columns">
+                    <div class="twelve columns">
+                            <canvas class="u-full-width" id="myChart"></canvas>
+                    </div>
+            </div>
+        </div>
+        
+        <footer id="footer" class="footer">
+                <div class="container">
+                    <div class="row">
+                            <div class="twelve  columns">
+                                    <nav id="primary" class="menu">
+                                        <h5>Made by Roman</h5>
+                                        <a class="link" href="http://www.ewigol.com.pl/" target="_blank">Project on GitHab</a>
+                                    </nav>
+                            </div>       
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script src="js/coin.js"></script>
+   
+</body>
+</html>

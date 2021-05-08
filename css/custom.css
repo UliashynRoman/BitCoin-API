@@ -1,0 +1,351 @@
+body {
+    background-color: #fff6f6
+}
+
+h1 {
+    text-align: center;
+}
+input[type=text] {
+    color: black;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background:white;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+.remove {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+#hero {
+    background-image:url(../img/hero.jpg);
+    height: 450px;
+    background-size: cover;
+}
+#heading {
+    margin: 30px 0;
+}
+#heading-nav {
+    /* margin-top: 30px; */
+    margin-bottom: 13px;
+  }
+.submenu {
+    position: relative;
+}
+
+.submenu #shopping-cart{
+    display: none;
+}
+.submenu:hover #shopping-cart{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.hero-content {
+    margin-top: 80px;
+    color: white;
+}
+.hero-content form {
+    position: relative;
+    margin-bottom: 0;
+}
+.hero-content form #search-course {
+    height: 50px;
+    margin-bottom: 0;
+}
+.hero-content form .submit-search-course {
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/mglass.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border:none;
+}
+
+
+.main-bar {
+    padding: 20px 0;
+   background: #741d51; /* Old browsers */
+   background: -moz-linear-gradient(left,rgb(65,99,132) 0%, gray 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(left, rgb(65,99,132) 0%, gray  100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to right, rgb(65,99,132) 0%, gray  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+}
+
+.main-bar p {
+    margin:0;
+    color: white;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icon {
+        margin-bottom:0;
+    }
+}
+
+
+
+.icon1 {
+    background-image: url(../img/icon1.png);
+}
+.icon2 {
+    background-image: url(../img/icon2.png);
+}
+.icon3 {
+    background-image: url(../img/icon3.png);
+}
+
+#courses-list .row {
+    margin-bottom:20px;
+}
+.add-to-cart {
+    margin:10px 0;
+}
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .price {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .price span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer {
+    margin-top: 40px;
+    border-top:1px solid #aaa;;
+    padding-top: 40px;
+}
+.footer .menu a{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+}
+
+/* PROFIFLE */
+.profile-card{
+    padding: 30px 20px; 
+    color: white; 
+  }
+  
+  #profile_info_color{
+    background-color: #0d1b21; 
+    height: 345px;
+  }
+  #profile_info_color2{
+    background-color: #0d1b21; 
+    height: 540px;
+  }
+  #profile_logo_color{
+    background-color: #eeeeee;
+    padding: 20px 0px;
+    text-align:center;
+  }
+
+  .rigthblock{
+    background-color: #0d1b21; 
+    padding: 26px 20px;
+    color:white; 
+  }
+
+  .car-row{
+    background-color: #eeeeee; 
+    padding: 20px;
+    
+  }
+  
+  .rightside{
+    background-color: #aaa;
+    min-height: 600px;
+  }
+
+/*  */
+  #mychart2{
+      color:white;
+  }
+
+  h3{
+      margin-bottom: 0px;
+  }
+  
+
+  /* NAVBAR */
+  
+  .koko{
+    font-size: 30px;
+  }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 23px;
+  }
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+  }
+  .navbar-item-rigth {
+    position: relative;
+    float: right;
+    margin-bottom: 0;
+    
+  }
+  .navbar-item a{
+      font-size: 35px;
+  }
+  .navbar-link{
+    text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .2rem;
+      margin-right: 35px;
+      text-decoration: none;
+      color: #222;
+  }
+  .navbar-item-rigth a{
+    margin-right: 38px;
+    text-decoration: none;
+    color: #0d1b21;
+  }
+
+  .pad{
+      padding: 20px
+  }
+  /* DATE TIME */
+  #date1,#date2{
+      margin: auto;
+      color:#0d1b21;
+      background-color: #eeeeee;
+      font-size: 19px;
+      border-radius: 1px;
+  }
+  .data-align{
+      text-align: center;
+      padding: 10px;
+  }
+  #history{
+    height: 254px;
+    width: 93%;
+    /* background-color: #eeee; */
+    overflow-y: scroll;
+    text-align: center;
+  }
+
+
+  /* Service Card */
+.card-2 {
+    text-align: center;
+    background: #0d1b21;
+    color: #eeeeee;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(13,27,33,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(13,27,33,1);
+    box-shadow: 0px 0px 15px 0px rgba(13,27,33,1);
+    
+}
+  
+  .card,.card-2 h4 {
+    margin:auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card,.card-2 p {
+    margin:auto;
+    font-size: 22px;
+}
+
+.info-card-2  {
+    
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/* Main Bar, H4 History Rate */
+.main-bar {
+    padding: 20px 0;
+    background: #0d1b21; /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+ }
+ .main-bar h2 {
+    margin: auto;
+    color: #eeeeee;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid #aaa;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.footer .menu a,h5,h6{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+}
+.footer .menu a,h6{
+    color: #0d1b21;
+}
+.footer .menu a:hover{
+    color:rgb(65,99,132);
+}
+/* CANVAS */
+canvas{
+    margin-top: 50px;
+}
